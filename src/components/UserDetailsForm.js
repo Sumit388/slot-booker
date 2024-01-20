@@ -1,8 +1,13 @@
+// * Packages Import * //
 import { useState } from "react";
-import Styles from "../styles/PageComponents/UserDetailsForm.module.scss";
 import { toast } from "react-toastify";
 import axios from "axios";
+
+// * Utils Import * //
 import { addSlot } from "../utils/urls";
+
+// * Styles Import * //
+import Styles from "../styles/PageComponents/UserDetailsForm.module.scss";
 
 const UserDetailsForm = ({ params }) => {
   const [loading, setLoading] = useState(false);
@@ -90,8 +95,12 @@ const UserDetailsForm = ({ params }) => {
           placeholder="9876543210"
         />
       </div>
-      <button onClick={handleSubmit} className={Styles.selectButton}>
-        Schedule Event
+      <button
+        onClick={handleSubmit}
+        className={Styles.selectButton}
+        disabled={loading}
+      >
+        {loading ? "Please wait..." : "Schedule Event"}
       </button>
     </div>
   );

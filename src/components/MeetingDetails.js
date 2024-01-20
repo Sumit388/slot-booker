@@ -1,7 +1,10 @@
-import Styles from "../styles/PageComponents/MeetingDetails.module.scss";
+// * Assets Import * //
 import sumit from "../assets/sumit.jpeg";
 import time from "../assets/time.svg";
 import camera from "../assets/camera.svg";
+
+// * Styles Import * //
+import Styles from "../styles/PageComponents/MeetingDetails.module.scss";
 
 const MeetingDetails = () => {
   return (

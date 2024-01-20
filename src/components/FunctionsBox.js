@@ -1,8 +1,13 @@
+// * Packages Import * //
 import { useState } from "react";
 import React from "react";
-import Styles from "../styles/PageComponents/FunctionsBox.module.scss";
+
+// * Component Import * //
 import SelectTimeAndDate from "./SelectTimeAndDate";
 import UserDetailsForm from "./UserDetailsForm";
+
+// * Styles Import * //
+import Styles from "../styles/PageComponents/FunctionsBox.module.scss";
 
 const FunctionsBox = () => {
   const [date, setDate] = useState(null);

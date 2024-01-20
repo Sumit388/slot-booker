@@ -1,9 +1,14 @@
+// * Packages Import * //
 import { useEffect, useState } from "react";
-import Styles from "../styles/PageComponents/SelectTimeAndDate.module.scss";
 import Calendar from "react-calendar";
 import { toast } from "react-toastify";
-import { getAllBookedDays, getBookedSlotsByDay } from "../utils/urls";
 import axios from "axios";
+
+// * Utils Import * //
+import { getAllBookedDays, getBookedSlotsByDay } from "../utils/urls";
+
+// * Styles Import * //
+import Styles from "../styles/PageComponents/SelectTimeAndDate.module.scss";
 
 const SelectTimeAndDate = ({ params }) => {
   const [loading, setLoading] = useState(false);

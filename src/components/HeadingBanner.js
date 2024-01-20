@@ -1,4 +1,4 @@
-import React from "react";
+// * Styles Import * //
 import Styles from "../styles/PageComponents/HeadingBanner.module.scss";
 
 const HeadingBanner = () => {
