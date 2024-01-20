@@ -1,0 +1,16 @@
+@use "../Base" as *;
+
+.headingBannerContainer {
+  @include container();
+  box-sizing: border-box;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  min-height: 200px;
+  box-shadow: $box-shadow;
+
+  p {
+    font-size: $font-16;
+    font-weight: 600;
+    color: $black2;
+  }
+}

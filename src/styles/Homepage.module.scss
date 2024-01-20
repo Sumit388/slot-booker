@@ -1,0 +1,19 @@
+@use "./Base" as *;
+
+.homePage {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    @include container();
+
+    @include responsive($screen-1280) {
+      flex-direction: row;
+    }
+  }
+}

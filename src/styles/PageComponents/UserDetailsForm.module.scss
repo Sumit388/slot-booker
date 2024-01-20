@@ -1,0 +1,45 @@
+@use "../Base" as *;
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  button {
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    border: 1px solid $primary-blue;
+    background: $white;
+
+    &:hover {
+      border: 2px solid $primary-blue;
+    }
+  }
+
+  .selectButton {
+    border: none;
+    color: $white;
+    font-weight: 800;
+    background: $dark-green;
+  }
+
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    label {
+      font-size: $font-16;
+      font-weight: 600;
+      color: $black2;
+    }
+
+    input {
+      width: calc(100% - 60px);
+      max-width: 400px;
+      border: 1px solid $grey;
+      padding: 10px;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+@use "../Base" as *;
+
+.selectTimeAndDateContainer {
+  display: flex;
+  flex-direction: column;
+
+  .mainFunctionsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .slots {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-top: 50px;
+
+      @include responsive($screen-768) {
+        padding-left: 40px;
+      }
+
+      @include responsive($screen-1280) {
+        padding-left: 80px;
+      }
+
+      h2 {
+        font-size: $font-14;
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+
+      button {
+        cursor: pointer;
+        width: 200px;
+        height: 40px;
+        border: 1px solid $primary-blue;
+        background: $white;
+
+        &:hover {
+          border: 2px solid $primary-blue;
+        }
+      }
+
+      .activeButton {
+        background: $primary-blue;
+        color: $white;
+        font-weight: 800;
+      }
+
+      .selectButton {
+        border: none;
+        color: $white;
+        font-weight: 800;
+        background: $dark-green;
+      }
+    }
+  }
+}
