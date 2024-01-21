@@ -8,13 +8,13 @@ const HeadingBanner = () => {
       <p>
         Effortlessly schedule your appointments with our user-friendly slot
         booking app, ensuring a seamless experience for both users and
-        businesses. Effortlessly choose from a range of available dates and time
-        slots, then proceed to secure your spot by providing your details for a
-        seamless booking experience.
-      </p>
-      <p>
-        I have not added any transactions gateway as I did not have any account
-        verified. PS: All successful bookings are stored in "Slots" table.
+        businesses.
+        <br /> - Slots once booked won't show in the available slots. <br />-
+        Date in the calender will become inactive if all slots for the day are
+        booked. <br />
+        - I have not added any transactions gateway as I did not have any
+        account verified. <br /> - All successful bookings are stored in "Slots"
+        table.
       </p>
     </div>
   );
