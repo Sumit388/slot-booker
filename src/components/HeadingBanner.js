@@ -12,6 +12,10 @@ const HeadingBanner = () => {
         slots, then proceed to secure your spot by providing your details for a
         seamless booking experience.
       </p>
+      <p>
+        I have not added any transactions gateway as I did not have any account
+        verified. PS: All successful bookings are stored in "Slots" table.
+      </p>
     </div>
   );
 };
