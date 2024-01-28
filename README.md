@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Slot Booking App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Slot Booking App is a user-friendly application designed to facilitate effortless scheduling of appointments for users and businesses alike. With intuitive features and a seamless user experience, managing appointments has never been easier.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Efficient Slot Management**: Once a slot is booked, it automatically becomes unavailable for further bookings, ensuring no double bookings occur.
+- **Dynamic Calendar**: The calendar dynamically adjusts based on the availability of slots. If all slots for a particular day are booked, the date becomes inactive, preventing users from selecting unavailable dates.
+- **Transaction Gateway**: While the application does not currently integrate any transaction gateway, users can still make bookings without the need for account verification. I am planning to integrate transaction gateway in this project in future. If I feel like working on this project once more.
 
-### `npm start`
+## Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Booking Appointments**: Users can browse available slots and book appointments based on their preferred date and time.
+2. **Slot Availability**: Slots that have been booked will no longer appear in the available slots list, preventing double bookings and ensuring efficient scheduling.
+3. **Calendar Management**: The calendar automatically updates to reflect the availability of slots. If all slots for a particular day are booked, the date becomes inactive, signaling to users that no appointments are available for that day.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Database Management
 
-### `npm test`
+All successful bookings are securely stored in the "Slots" table, ensuring data integrity and easy retrieval of booking information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To install Slot Booking App, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository: `git clone https://github.com/sumitsingh/slot-booking-app.git`
+2. Navigate to the project directory.
+3. Add .env file with REACT_APP_APIURL delcration. REACT_APP_APIURL is variable which will hold your backend's base address.
+4. Run command `npm start` to start the development environment or server.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contributions to the Slot Booking App project are welcome. If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request or raise an issue on the GitHub repository.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contact
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+For any inquiries or support regarding Sumit's Slot Booking App, please contact Sumit Singh at [sumitmishra388@gmail.com](mailto:sumitmishra388@gmail.com).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for using Slot Booking App! Happy scheduling!
