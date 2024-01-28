@@ -1,6 +1,8 @@
 # Slot Booking App
 
-Slot Booking App is a user-friendly application designed to facilitate effortless scheduling of appointments for users and businesses alike. With intuitive features and a seamless user experience, managing appointments has never been easier.
+Slot Booking App is a user-friendly application designed to facilitate effortless scheduling of appointments for users and businesses alike. With intuitive features and a seamless user experience, managing appointments has never been easier. <br/>
+[Link to the backend of this project.](https://github.com/Sumit388/slot-booking-backend). <br/>
+[Deployed Link](https://slot-booker.vercel.app/)
 
 ## Features
 
@@ -22,7 +24,7 @@ All successful bookings are securely stored in the "Slots" table, ensuring data 
 
 To install Slot Booking App, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/sumitsingh/slot-booking-app.git`
+1. Clone the repository: `git clone git@github.com:Sumit388/slot-booker.git`
 2. Navigate to the project directory.
 3. Add .env file with REACT_APP_APIURL delcration. REACT_APP_APIURL is variable which will hold your backend's base address.
 4. Run command `npm start` to start the development environment or server.
