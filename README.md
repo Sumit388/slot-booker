@@ -34,6 +34,6 @@ Contributions to the Slot Booking App project are welcome. If you encounter any 
 
 ## Contact
 
-For any inquiries or support regarding Sumit's Slot Booking App, please contact Sumit Singh at [sumitmishra388@gmail.com](mailto:sumitmishra388@gmail.com).
+For any inquiries or support regarding Sumit's Slot Booking App, please contact Sumit Mishra at [sumitmishra388@gmail.com](mailto:sumitmishra388@gmail.com).
 
 Thank you for using Slot Booking App! Happy scheduling!
